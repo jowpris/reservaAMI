@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html ng-app="ProUrban">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	
+	<title>ProUrban</title>
+ 
+    <!--<script src=" https://code.jquery.com/jquery-2.2.4.min.js"></script>-->
+      
+   
+    
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="assets/images/favicon-browser.png" sizes="16x16"> 
+	<!-- Bootstrap -->
+	<link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+	<!-- NProgress -->
+	<link href="assets/vendors/nprogress/nprogress.css" rel="stylesheet">
+	<!-- Animate.css -->
+	<link href="assets/vendors/animate.css/animate.min.css" rel="stylesheet">
+	<!-- iCheck -->
+	<link href="assets/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    	<link href="assets/css/style.css" rel="stylesheet">
+	
+	<!-- bootstrap-progressbar -->
+	<link href="assets/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+	<!-- JQVMap -->
+	<link href="assets/vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+	<!-- bootstrap-daterangepicker -->
+	<link href="assets/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- calendario -->
+    	
+  
+    
+   
+  
+
+	<!-- Custom Theme Style -->
+	<link href="assets/css/custom.css" rel="stylesheet">
+</head>
+<body class="nav-md" ng-controller="appController">
+	<div class="container body">
+		<div class="main_container">
+			<div ng-view></div>
+		</div>
+	</div>
+
+	<!-- Libraries -->
+	<script src="assets/js/angular.min.js"></script>
+	<script src="assets/js/angular-route.js"></script>
+	<script src="assets/js/angular-animate.js"></script>
+	<script src="assets/js/angular-local-storage.js"></script>
+    	
+    <!-- Calendario 
+      
+    
+
+	<!-- jQuery -->
+  
+	<script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- NProgress -->
+	<script src="assets/vendors/nprogress/nprogress.js"></script>
+	<!-- FastClick -->
+	<!-- <script src="assets/vendors/fastclick/lib/fastclick.js"></script> -->
+	<!-- Chart.js -->
+	<!-- <script src="assets/vendors/Chart.js/dist/Chart.min.js"></script> -->
+	<!-- gauge.js -->
+	<!-- <script src="assets/vendors/gauge.js/dist/gauge.min.js"></script> -->
+	<!-- bootstrap-progressbar -->
+	<!-- <script src="assets/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script> -->
+	<!-- iCheck -->
+	<!-- <script src="assets/vendors/iCheck/icheck.min.js"></script> -->
+	<!-- Skycons -->
+	<!-- <script src="assets/vendors/skycons/skycons.js"></script> -->
+	<!-- Flot -->
+	<!-- <script src="assets/vendors/Flot/jquery.flot.js"></script>
+	<script src="assets/vendors/Flot/jquery.flot.pie.js"></script>
+	<script src="assets/vendors/Flot/jquery.flot.time.js"></script>
+	<script src="assets/vendors/Flot/jquery.flot.stack.js"></script>
+	<script src="assets/vendors/Flot/jquery.flot.resize.js"></script> -->
+	<!-- Flot plugins -->
+	<!-- <script src="assets/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+	<script src="assets/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+	<script src="assets/vendors/flot.curvedlines/curvedLines.js"></script> -->
+	<!-- DateJS -->
+	<!-- <script src="assets/vendors/DateJS/build/date.js"></script> -->
+	<!-- JQVMap -->
+	<!-- <script src="assets/vendors/jqvmap/dist/jquery.vmap.js"></script>
+	<script src="assets/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+	<script src="assets/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script> -->
+	<!-- bootstrap-daterangepicker -->
+	<!-- <script src="assets/vendors/moment/min/moment.min.js"></script>
+	<script src="assets/vendors/bootstrap-daterangepicker/daterangepicker.js"></script> -->
+
+	<!-- Custom Theme Scripts -->
+	<script src="assets/js/custom.js"></script>
+    <script src="assets/js/index.js"></script>
+
+
+    
+    
+    
+	<script src="app/app.js"></script>
+	<script src="app/routes.js"></script>
+	<script src="app/factories/angular.soap.js"></script>
+	<script src="app/soapclient.js"></script>
+	<script src="app/factories/authenticationService.js"></script>
+    
+    <script src="app/factories/administrador/proveedorService.js"></script>
+     
+    <!-- Reserva Service-->
+    <script src="app/factories/reservauService.js"></script>
+    
+    <script src="app/factories/administrador/reservaService.js"></script>
+     <script src="app/factories/administrador/reservaListaService.js"></script>
+     <!-- Reserva  -->
+	<script src="app/directives/menuDirective.js"></script>
+	<script src="app/directives/headerDirective.js"></script>
+	<script src="app/directives/statsDirective.js"></script>
+	<script src="app/directives/formDirective.js"></script>
+	<script src="app/directives/footerDirective.js"></script>
+
+	<!-- Controllers -->
+	<script src="app/controllers/appController.js"></script>
+	<script src="app/controllers/loginController.js"></script>
+	<script src="app/controllers/formController.js"></script>
+   
+	<script src="app/controllers/administrador/proveedorController.js"></script>
+      <!-- Reserva Controller -->
+    <script src="app/controllers/reservauController.js"></script>
+    <script src="app/controllers/administrador/reservaController.js"></script>
+    <script src="app/controllers/administrador/reservaListaController.js"></script>
+   
+
+     
+
+</body>
+</html>
